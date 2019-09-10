@@ -12,12 +12,13 @@ Conditions given for the above resources and assets:
 The Cornwall Water Treatment Plant does not stop production. Its maximum production capacity is at the rate of 3500 m3/h and minimum production capacity is at the rate of 800 m3/h. The rate of flow of water from the source is generally constant. However, we also need to assess the situation if the rate of flow of water changes. We are given the condition that the rate of flow can only change after every 4 hours.
 The two valves can be open or closed and we are given the minimum and maximum rate of flow through these valves. However, we also need to assess the condition that if the valve is open, then it must stay open for at least four hours at a constant rate of flow.
 
-|    -------------    | Water Source_1 | Valve_Gr  | Valve_Er |
+|     | Water Source_1 | Valve_Gr  | Valve_Er |
+| --- | --- || --- | --- |
 | Min rate of flow at m3/h | 800 | 500  | 200  |
 | Min rate of flow at m3/h  | 3500  | 1500 | 1000 |
 | Constant rate of flow (Hours)  | >=4  | >=4  | >=4 |
 | Open (Hours)  | 24  | >=4 | >=4 |
-| Close (Hours)  | 0  | -------------  | ------------- |
+| Close (Hours) | 0   |     |     |
 
 All the 6 pumps are in similar performing condition. They all work at 65% efficiency level. Their lifting capacity is therefore almost similar, except one. All the lifting rates have been provided. A pump can be open or closed. However, we also need to assess the situation if the pump must stay open for at least two hours. 
 
